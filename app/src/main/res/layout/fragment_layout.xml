@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="fragment布局"
+        android:textColor="#000"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="添加数据"/>
+
+    <Button
+        android:id="@+id/bts"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="添加集合"/>
+
+</LinearLayout>
